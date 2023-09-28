@@ -1,7 +1,9 @@
+import Header from "@/components/Header";
+
 export default function Home() {
   return (
     <div>
-      {/* header */}
+      <Header />
       {/* page cover */}
       {/* about me */}
       {/* projects */}

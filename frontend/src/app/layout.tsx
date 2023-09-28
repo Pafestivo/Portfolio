@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "@/styles/globals.css";
 import { lato } from "@/app/fonts";
 
 export const metadata: Metadata = {
