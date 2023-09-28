@@ -1,11 +1,26 @@
 :root {
   --white: #fff; /* 60% */
-  --pink: #ff1493; /* 30% */
-  --purple: #6c04f4; /* 10% */
+  --purple: #6c04f4; /* 30% */
+  --pink: #ff1493; /* 10% */
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.bold-accent {
+  color: var(--purple);
+}
+
+.btn {
+  background-color: var(--pink);
+  text-align: center;
+  color: white;
+  padding: 7px 60px;
+  border-radius: 10px;
+  width: max-content;
+  cursor: pointer;
+  transition: all 0.4s ease;
 }
