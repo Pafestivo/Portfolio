@@ -1,3 +1,4 @@
+import AboutMe from "@/components/AboutMe";
 import Header from "@/components/Header";
 import PageCover from "@/components/PageCover";
 
@@ -6,7 +7,7 @@ export default function Home() {
     <div>
       <Header />
       <PageCover />
-      {/* about me */}
+      <AboutMe />
       {/* projects */}
       {/* let's connect */}
     </div>

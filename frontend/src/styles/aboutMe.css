@@ -1,0 +1,40 @@
+.about-me-container {
+  background-color: var(--purple);
+  color: var(--white);
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  row-gap: 20px;
+  text-align: center;
+}
+
+.about-me-container p {
+  max-width: 700px;
+  white-space: pre-line;
+  line-height: 1.5;
+  font-size: 1.1em;
+}
+
+.second-section {
+  margin-top: 30px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 500px;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 25px;
+}
+
+.skills-container > * {
+  background-color: var(--white);
+  color: var(--purple);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: rgba(250, 250, 250, 0.1) 0px 4px 12px;
+}
