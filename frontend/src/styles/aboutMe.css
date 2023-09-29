@@ -1,7 +1,8 @@
 .about-me-container {
   background-color: var(--purple);
   color: var(--white);
-  height: 600px;
+  min-height: 600px;
+  height: max-content;
   display: flex;
   flex-direction: column;
   align-items: center;

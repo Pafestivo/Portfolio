@@ -1,6 +1,7 @@
 import AboutMe from "@/components/AboutMe";
 import Header from "@/components/Header";
 import PageCover from "@/components/PageCover";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       <Header />
       <PageCover />
       <AboutMe />
-      {/* projects */}
+      <Projects />
       {/* let's connect */}
     </div>
   );

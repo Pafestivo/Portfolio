@@ -18,6 +18,7 @@ const AboutMe = () => {
         <div>Express</div>
         <div>MySQL</div>
       </div>
+      <div style={{ height: "70px" }}></div>
     </div>
   );
 };

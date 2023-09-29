@@ -7,7 +7,7 @@
   width: 100%;
   display: flex;
   margin: 0 auto;
-  column-gap: 200px;
+  column-gap: 160px;
   justify-content: center;
   align-items: center;
 }
@@ -27,7 +27,7 @@
 
 .image-container {
   position: relative;
-  width: 230px;
+  width: 275px;
   overflow: hidden;
 }
 
@@ -35,11 +35,26 @@
   position: relative;
   top: 50%;
   left: 50%;
-  width: 500px;
-  height: calc(500px * 9 / 16);
+  width: 600px;
+  height: calc(600px * 9 / 16);
   transform: translateX(-50%);
 }
 
 .btn:hover {
   background-color: #fe59b1;
+}
+
+@media only screen and (max-width: 768px) {
+  .cover-page-content-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info {
+    padding-bottom: 30px;
+  }
+
+  .info .btn {
+    margin: 0 auto;
+  }
 }
