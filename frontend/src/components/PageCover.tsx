@@ -4,7 +4,7 @@ import "@/styles/pageCover.css";
 
 const PageCover = () => {
   return (
-    <div className="cover-page-container">
+    <div id="home" className="cover-page-container">
       <div className="cover-page-content-container">
         <div className="info">
           <div className="block">

@@ -1,4 +1,5 @@
 import AboutMe from "@/components/AboutMe";
+import Connect from "@/components/Connect";
 import Header from "@/components/Header";
 import PageCover from "@/components/PageCover";
 import Projects from "@/components/Projects";
@@ -10,7 +11,7 @@ export default function Home() {
       <PageCover />
       <AboutMe />
       <Projects />
-      {/* let's connect */}
+      <Connect />
     </div>
   );
 }

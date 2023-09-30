@@ -2,7 +2,7 @@
   max-width: 700px;
   width: calc(100% - 70px);
   height: max-content;
-  min-height: 600px;
+  min-height: 500px;
   background-color: var(--white);
   margin: -100px auto 0 auto;
   border-radius: 10px;
@@ -15,6 +15,7 @@
   row-gap: 25px;
   font-size: 1.3em;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .projects-list {
@@ -23,4 +24,11 @@
   column-gap: 30px;
   row-gap: 30px;
   justify-content: center;
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .projects-list {
+    grid-template-columns: 1fr;
+  }
 }

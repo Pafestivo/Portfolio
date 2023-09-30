@@ -2,7 +2,7 @@
   position: relative;
   border-radius: 15px;
   max-width: 250px;
-  height: calc((9 / 16) * 250px);
+  height: calc((9 / 16) * 270px);
 }
 
 .project-card img {
@@ -40,4 +40,15 @@
 
 .project-card:hover .project-desc {
   opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .projects-list {
+    grid-template-columns: 1fr;
+  }
+
+  .project-desc {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+  }
 }

@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <div className="projects-area">
+    <div id="projects" className="projects-area">
       <h1>Projects</h1>
 
       <div className="projects-list">
