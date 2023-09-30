@@ -1,8 +1,15 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import "@/styles/pageCover.css";
 
 const PageCover = () => {
+  const handleNavigation = (id: string) => {
+    const element = document.getElementById(id);
+    console.log("element", element);
+    if (element) element.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div id="home" className="cover-page-container">
       <div className="cover-page-content-container">
@@ -18,7 +25,9 @@ const PageCover = () => {
           </div>
 
           <div className="block">
-            <p className="btn">Projects</p>
+            <p onClick={() => handleNavigation("projects")} className="btn">
+              Projects
+            </p>
           </div>
         </div>
 
