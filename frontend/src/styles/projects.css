@@ -8,9 +8,19 @@
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   display: flex;
-  justify-content: center;
+  align-items: center;
   padding-top: 30px;
   color: var(--purple);
   font-weight: bold;
+  row-gap: 25px;
   font-size: 1.3em;
+  flex-direction: column;
+}
+
+.projects-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+  justify-content: center;
 }
