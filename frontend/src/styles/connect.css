@@ -1,7 +1,7 @@
 .connect-container {
   background-color: var(--purple);
   max-width: 550px;
-  width: calc(100% - 80px);
+  width: calc(100% - 30px);
   margin: 0 auto;
   height: max-content;
   min-height: 320px;
@@ -105,7 +105,9 @@
   .social-medias {
     flex-direction: row;
     column-gap: 55px;
-    padding: 15px 40px;
+    padding: 15px 0;
+    width: 100%;
+    max-width: calc(100% - 30px);
     margin-bottom: 30px;
   }
 }
