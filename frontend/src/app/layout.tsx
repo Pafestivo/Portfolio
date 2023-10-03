@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "@/styles/globals.css";
 import { lato } from "@/app/fonts";
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: "Or Rodrigez",
@@ -15,7 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={lato.className}>
-        <div style={{ overflowX: "hidden" }}>{children}</div>
+        <div style={{ overflowX: "hidden" }}>
+          {children}
+          <Analytics />
+        </div>
       </body>
     </html>
   );
