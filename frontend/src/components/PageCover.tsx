@@ -19,7 +19,7 @@ const PageCover = () => {
             <h1>I am Or Rodrigez</h1>
           </div>
           <div className="block">
-            <p>A Full-stack Web Developer,</p>
+            <p>A Full-stack Developer,</p>
             <p>building complex web applications,</p>
             <p>and I love what I do.</p>
           </div>
