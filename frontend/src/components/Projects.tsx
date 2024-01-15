@@ -22,12 +22,12 @@ const Projects = () => {
           url="https://real-israel-tours.vercel.app/"
         />
 
-        <ProjectCard
+        {/* <ProjectCard
           image="/meet4meet-banner.png"
           title="Meet4Meet"
           description="Appointment Scheduling Platform (Work In Progress)"
           url="https://go.meet4meet.com/"
-        />
+        /> */}
       </div>
     </div>
   );

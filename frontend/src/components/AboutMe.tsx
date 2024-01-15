@@ -9,14 +9,17 @@ const AboutMe = () => {
       My time as a web developer has been packed with solving challenging tasks and getting hands-on experience with advanced technologies. This journey has brought me to a point where I truly believe there isn't a problem I can't solve.`}</p>
       <h2 className="second-section">Key Skills</h2>
       <div className="skills-container">
-        <div>JavaScript</div>
         <div>TypeScript</div>
+        <div>JavaScript</div>
+        <div>Python</div>
+        <div>Django</div>
         <div>HTML</div>
         <div>CSS</div>
         <div>Next.js</div>
         <div>React.js</div>
         <div>Express</div>
         <div>MySQL</div>
+        <div>C</div>
       </div>
       <div style={{ height: "70px" }}></div>
     </div>
